@@ -65,7 +65,7 @@ const cache = new InMemoryCache({
 });
 
 export const serverApolloClient = new ApolloClient({
-  name: 'calorie-counter-demo-client',
+  name: 'calorie-management-client',
   link: httpLink,
   cache,
   connectToDevTools: config.enableGraphqlDebug,
